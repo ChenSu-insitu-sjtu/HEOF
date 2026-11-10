@@ -1,0 +1,7 @@
+{
+  "n": 12,
+  "r_squared": 0.639606366410506,
+  "adjusted_r_squared": 0.33927833841926114,
+  "rmse": 25.212150146260136,
+  "evaluation": "In-sample fit of all observations; no held-out test set."
+}

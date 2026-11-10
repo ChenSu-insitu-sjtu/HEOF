@@ -1,0 +1,66 @@
+Dataset dimensions：12 rows × 3 columns
+============================================================
+        PC1      PC2    Cap.
+0   1.78526  0.44383  139.00
+1   1.05226  1.82578  163.00
+2  -0.98647  0.09801   81.95
+3  -0.06862  0.87772   54.72
+4  -0.56324  0.87678   36.94
+5  -4.21183  1.47056   19.41
+6  -0.83862 -2.51637  135.42
+7   0.14862 -1.42723  128.25
+8   1.74497  0.97877  125.78
+9   0.96020  0.47614   98.09
+10 -1.87116 -1.88776   92.28
+11  2.84865 -1.21623   85.40
+
+PC1(x) range：-4.2118 ~ 2.8487
+PC2(y) range：-2.5164 ~ 1.8258
+Cap.(z) range：19.4100 ~ 163.0000
+
+======================================================================
+                Quadratic Response Surface Model Fitting Evaluation
+======================================================================
+
+【Optimized Quadratic Response Surface Equation】
+z = 73.7597 + 14.3809x + 3.5604y + 1.4643x² + 9.9403y² + 8.8643xy
+
+【Overall Goodness-of-Fit Statistics】
+Coefficient of determination R²          = 0.725562
+Adjusted coefficient of determination Adj-R²   = 0.496864
+Mean squared error MSE          = 484.824301
+Root mean squared error RMSE       = 22.018726
+Total number of observations n            = 12
+Residual degrees of freedom df_error   = 6
+
+【ANOVA Table】
+                  Sum of Squares SS  Degrees of Freedom df  Mean Square MS   F-value  P-value
+Regression Model       15381.416649                      5     3076.283330  3.172575  0.09616
+Residual Error          5817.891618                      6      969.648603       NaN      NaN
+Total                  21199.308267                     11             NaN       NaN      NaN
+
+【Overall ANOVA Results】
+           df       sum_sq      mean_sq         F    PR(>F)
+x         1.0  6881.829699  6881.829699  7.097241  0.037321
+y         1.0  1111.175246  1111.175246  1.145957  0.325558
+x2        1.0   969.360276   969.360276  0.999703  0.355984
+y2        1.0  4670.824390  4670.824390  4.817028  0.070609
+xy        1.0  1748.227038  1748.227038  1.802949  0.227923
+Residual  6.0  5817.891618   969.648603       NaN       NaN
+
+【Individual-Term ANOVA: Type III Partial Sum of Squares】
+          Partial Sum of Squares (Partial SS)  Degrees of Freedom df   F value   p value
+x                                 5879.179829                    1.0  6.063207  0.048963
+y                                  179.032054                    1.0  0.184636  0.682422
+x2                                 179.924971                    1.0  0.185557  0.681685
+y2                                1822.942747                    1.0  1.880003  0.219405
+xy                                1748.227038                    1.0  1.802949  0.227923
+Residual                          5817.891618                    6.0       NaN       NaN
+Note: The results are based on the standard Type III partial sum of squares, with the intercept excluded. Each term is evaluated while accounting for the other terms in the fitted model.
+
+【Residual Analysis】
+Mean residual      = 5.802766e-14
+Residual standard deviation    = 31.139181
+Minimum residual    = -35.570106
+Maximum residual    = 39.034188
+Shapiro-Wilk normality test: W = 0.9730, p = 0.9396

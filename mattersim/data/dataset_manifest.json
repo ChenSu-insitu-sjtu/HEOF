@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "status": "INPUT_CONFIGURATION",
+  "label_type": "DFT",
+  "label_source": "VASP DFT total energies and atomic forces",
+  "energy_unit": "eV per structure",
+  "force_unit": "eV/Angstrom",
+  "split_method": "Chronological training/validation/test split",
+  "split_ratio": [8, 1, 1],
+  "files": {
+    "train.pkl": {"expected_frames": 160},
+    "validation.pkl": {"expected_frames": 20},
+    "test.pkl": {"expected_frames": 20}
+  },
+  "index_generation": "The training script records hashes and frame indices from the current PKLs in its output directory. Input files are not modified."
+}
